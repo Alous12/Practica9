@@ -1,33 +1,31 @@
 .contenedor{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-end;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: flex-start;
     align-content: center;
     height: 700px;
     background-color: rgba(0,0,0,0.5);
 }
 
 .caja-1{
-    width: 450px;
-    height: 80px;
+    
+    flex: 900px 1 1;
     font-size: 85px;
     color: white;
     background-color: blue;
 }
 
 .caja-2{
-    width: 450px;
-    height: 80px;
+    flex: 900px 2 2;
     font-size: 85px;
     color: white;   
     background-color: red;
 }
 
 .caja-3{
-    width: 450px;
-    height: 80px;
+    flex: 900px 1 1;
     font-size: 85px;
     color: white;   
     background-color: yellow;
