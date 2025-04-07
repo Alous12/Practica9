@@ -1,0 +1,58 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: center;
+    height: 700px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.caja-1{
+    width: 450px;
+    height: 80px;
+    font-size: 85px;
+    color: white;
+    background-color: blue;
+}
+
+.caja-2{
+    width: 450px;
+    height: 80px;
+    font-size: 85px;
+    color: white;   
+    background-color: red;
+}
+
+.caja-3{
+    width: 450px;
+    height: 80px;
+    font-size: 85px;
+    color: white;   
+    background-color: yellow;
+}
+
+.caja-4{
+    width: 450px;
+    height: 80px;
+    font-size: 85px;
+    color: white;   
+    background-color: green;
+}
+
+.caja-5{
+    width: 450px;
+    height: 80px;
+    font-size: 85px;
+    color: white;   
+    background-color: purple;
+}
+
+.caja-6{
+    width: 450px;
+    height: 80px;
+    font-size: 85px;
+    color: white;   
+    background-color: orange;
+}
